@@ -42,13 +42,4 @@ Train [Market-1501](https://www.cv-foundation.org/openaccess/content_iccv_2015/p
 ```
 python examples/unsupervised_train.py --dataset-target market1501
 ```
-Train [DukeMTMC-reID](https://arxiv.org/abs/1609.01775):
-```
-python examples/unsupervised_train.py --dataset-target dukemtmc-reid
-```
-Train [MSMT17](https://arxiv.org/abs/1711.08565):
-```
-python examples/unsupervised_train.py --dataset-target msmt17
-```
-
 
