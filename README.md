@@ -31,11 +31,8 @@ Download the raw datasets [DukeMTMC-reID](https://arxiv.org/abs/1609.01775), [Ma
 and then unzip them under the directory like
 ```
 ICE/examples/data
-├── dukemtmc-reid
-│   └── DukeMTMC-reID
 ├── market1501
-└── msmt17
-    └── MSMT17_V1(or MSMT17_V2)
+└── market1501_transfer
 ```
 
 ## Training
