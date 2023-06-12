@@ -7,13 +7,23 @@ Re-identification](https://arxiv.org/pdf/2103.16364.pdf).
 
 ![teaser](figs/figure8.png)
 
-## Installation
+## GAN
 
-```shell
-git clone https://github.com/chenhao2345/ICE
-cd ICE
-python setup.py develop
-```
+Camera style transfer
+
+[[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8485427)]
+[[Code](https://github.com/zhunzhong07/CamStyle)]
+
+Cloth style transfer
+
+[[Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zheng_Joint_Discriminative_and_Generative_Learning_for_Person_Re-Identification_CVPR_2019_paper.pdf)]
+[[Code](https://github.com/NVlabs/DG-Net)]
+
+Pose style transfer
+
+[[Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Xuelin_Qian_Pose-Normalized_Image_Generation_ECCV_2018_paper.pdf)]
+[[Code](https://github.com/naiq/PN_GAN)]
+
 
 ## Prepare Datasets
 
@@ -43,16 +53,5 @@ Train [MSMT17](https://arxiv.org/abs/1711.08565):
 ```
 python examples/unsupervised_train.py --dataset-target msmt17
 ```
-## Citation
-If you find this project useful, please kindly star our project and cite our paper.
-```bibtex
-@InProceedings{Chen_2021_ICCV,
-    author    = {Chen, Hao and Lagadec, Benoit and Bremond, Fran\c{c}ois},
-    title     = {ICE: Inter-Instance Contrastive Encoding for Unsupervised Person Re-Identification},
-    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
-    month     = {October},
-    year      = {2021},
-    pages     = {14960-14969}
-}
-```
+
 
