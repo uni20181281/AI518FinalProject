@@ -1,5 +1,5 @@
-# ICE
-This is the official PyTorch implementation of the ICCV 2021 paper
+# Generative models that perform diverse style transfer for robust person re-identification
+Our project is based on ICCV 2021 paper
 [ICE: Inter-instance Contrastive Encoding for Unsupervised Person
 Re-identification](https://arxiv.org/pdf/2103.16364.pdf).
 
